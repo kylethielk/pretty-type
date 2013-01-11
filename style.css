@@ -5,23 +5,50 @@ body {
 
     /** Text **/
     font-family: Verdana;
-    text-shadow: 0 1px 0 #E7E7E7;
-    filter: dropshadow(color = #E7E7E7, offx = 0, offy = 1);
+    text-shadow: 0 1px 0 #F7F7F7;
+    filter: dropshadow(color = #F7F7F7, offx = 0, offy = 1);
     color: #474747;
 
+    /** Background **/
     background-color: #fff;
 
 }
 
 h1 {
-    font-size: 20px;
-    font-family: Georgia;
+    /** Text **/
+    font-size: 22px;
+    font-family: "freight-sans-pro", sans-serif;
     font-weight: lighter;
 }
-p
-{
-    margin-left: 5px;
+
+h2 {
+    /** Text **/
+    font-size: 18px;
+    font-family: "freight-sans-pro", sans-serif;
+    font-weight: lighter;
+
+    /** Positioning **/
+    margin: 35px 0;
 }
+
+p {
+    /** Positioning **/
+    margin: 25px 5px;
+}
+
+a {
+    /** Text **/
+    color: #265990;
+    text-decoration: none;
+    /** Border **/
+    border-bottom: 1px solid #CCC;
+}
+
+a:hover {
+    /** Text **/
+    color: #449CF3;
+}
+
 .header {
 
     /** Positioning **/
@@ -33,7 +60,7 @@ p
     border-style: solid;
 
     /** Text **/
-    font-family: Georgia;
+    font-family: "freight-sans-pro", sans-serif;
     font-size: 26px;
     text-align: center;
     color: #449CF3;
@@ -50,4 +77,119 @@ p
 
 .content {
     padding: 25px;
+}
+
+.block-link {
+    /** Border **/
+    border: #CCC 1px solid;
+
+    /** Positioning **/
+    padding: 8px;
+    margin: 5px;
+
+    /** Border Radius **/
+    -webkit-border-radius: 6px; /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
+    border-radius: 6px; /* Opera 10.5, IE9+, Safari 5, Chrome, Firefox 4+, iOS 4, Android 2.1+ */
+
+    /* useful if you don't want a bg color from leaking outside the border: */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+    /** Gradient **/
+    background-color: #f6f6f6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f6f6f6)); /* Safari 4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #ffffff, #f6f6f6); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+    background-image: -moz-linear-gradient(top, #ffffff, #f6f6f6); /* Firefox 3.6-15 */
+    background-image: -o-linear-gradient(top, #ffffff, #f6f6f6); /* Opera 11.10-12.00 */
+    background-image: linear-gradient(to bottom, #ffffff, #f6f6f6); /* Firefox 16+, IE10, Opera 12.50+ */
+
+}
+
+.featured-content {
+
+    /** Border **/
+    border: #CCC 1px solid;
+
+    /** Positioning **/
+    padding: 12px;
+    margin: 5px;
+    width: 650px;
+
+    /** Border Radius **/
+    -webkit-border-radius: 6px; /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
+    border-radius: 6px; /* Opera 10.5, IE9+, Safari 5, Chrome, Firefox 4+, iOS 4, Android 2.1+ */
+    /* useful if you don't want a bg color from leaking outside the border: */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+}
+
+.featured-content-tag {
+
+    /** Positioning **/
+    margin: -12px 0 10px -12px;
+    width: 125px;
+    padding: 7px;
+
+    /** Text **/
+    text-align: center;
+    color: #d0384c;
+
+    /** Border **/
+    border-color: #CCC;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+
+    /** Border Radius **/
+    -webkit-border-radius: 6px 0 6px 0; /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
+    border-radius: 6px 0 6px 0; /* Opera 10.5, IE9+, Safari 5, Chrome, Firefox 4+, iOS 4, Android 2.1+ */
+
+    /** Gradient **/
+    background-color: #f6f6f6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f6f6f6)); /* Safari 4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #ffffff, #f6f6f6); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+    background-image: -moz-linear-gradient(top, #444444, #999999); /* Firefox 3.6-15 */
+    background-image: -o-linear-gradient(top, #444444, #999999); /* Opera 11.10-12.00 */
+    background-image: linear-gradient(to bottom, #444444, #999999); /* Firefox 16+, IE10, Opera 12.50+ */
+
+}
+
+.featured-content-alt {
+    /** Border **/
+    border: #CCC 1px solid;
+
+    /** Positioning **/
+    padding: 12px;
+    margin: 5px;
+    width: 650px;
+
+    /** Background **/
+    background-color: #fbfbfb;
+
+}
+
+.featured-content-alt-tag {
+
+    /** Positioning **/
+    margin: -6px 0 10px -25px;
+    width: 125px;
+    padding: 7px;
+
+    /** Text **/
+    text-align: center;
+    text-shadow: none;
+    filter: none;
+    color: #F0F0F0;
+
+
+    /** Border **/
+    border-color: #CCC;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+
+    /** Background **/
+    background-color: #EB374B;
+
 }
