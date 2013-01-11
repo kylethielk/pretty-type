@@ -1,0 +1,53 @@
+body {
+
+    /** Positioning **/
+    margin: 0;
+
+    /** Text **/
+    font-family: Verdana;
+    text-shadow: 0 1px 0 #E7E7E7;
+    filter: dropshadow(color = #E7E7E7, offx = 0, offy = 1);
+    color: #474747;
+
+    background-color: #fff;
+
+}
+
+h1 {
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight: lighter;
+}
+p
+{
+    margin-left: 5px;
+}
+.header {
+
+    /** Positioning **/
+    padding: 15px;
+
+    /** Border **/
+    border-color: #dcdcdc;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+
+    /** Text **/
+    font-family: Georgia;
+    font-size: 26px;
+    text-align: center;
+    color: #449CF3;
+    text-shadow: -1px 2px 1px #f4f4f4;
+    filter: dropshadow(color = #f4f4f4, offx = -1, offy = 2);
+
+    /** Shadow **/
+    -moz-box-shadow: 3px 3px 4px whiteSmoke;
+    -webkit-box-shadow: 3px 3px 4px whiteSmoke;
+    box-shadow: 3px 3px 4px whiteSmoke /* For IE 8 */ -ms-filter : "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='whiteSmoke')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength = 4, Direction = 135, Color = 'whiteSmoke');
+}
+
+.content {
+    padding: 25px;
+}
